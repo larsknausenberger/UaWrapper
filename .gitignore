@@ -1,0 +1,9 @@
+# Additional Directories will be created by AS
+Binaries/*
+Diagnosis/*
+Temp/*
+# Local User related files
+/*.set
+/.project
+*.isopen
+*.zip

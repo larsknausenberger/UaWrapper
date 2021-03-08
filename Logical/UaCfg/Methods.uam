@@ -1,0 +1,31 @@
+
+OPCUA_METHOD SetTimeZone
+	ARG_INPUT
+		TimezoneID : UInt16 := fbSetTimeZone.TimezoneID;
+	END_ARG
+	ARG_OUTPUT
+		Status : UInt16 := fbSetTimeZone.Status;
+	END_ARG
+END_OPCUA_METHOD
+
+OPCUA_METHOD SetIPAddr
+	ARG_INPUT
+		IPAddress : String := fbSetIPAddr.IPAddress;
+	END_ARG
+	ARG_OUTPUT
+		Status : UInt16 := fbSetIPAddr.Status;
+	END_ARG
+END_OPCUA_METHOD
+
+OPCUA_METHOD SetNtpClient
+	ARG_INPUT
+		Start : Boolean := fbSetNtpClient.Start;
+		ServerAddress1 : String := fbSetNtpClient.ServerAddress1;
+		ServerAddress2 : String := fbSetNtpClient.ServerAddress2;
+		ServerAddress3 : String := fbSetNtpClient.ServerAddress3;
+		ServerAddress4 : String := fbSetNtpClient.ServerAddress4;
+	END_ARG
+	ARG_OUTPUT
+		Status : UInt16 := fbSetNtpClient.Status;
+	END_ARG
+END_OPCUA_METHOD

@@ -1,0 +1,5 @@
+VAR
+	fbSetTimeZone : UasXCfgSetTimeZone;
+	fbSetIPAddr : UasXCfgSetIPAddr;
+	fbSetNtpClient : UasXCfgSetNtpClient;
+END_VAR

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.8.3.111 SP?>
+<Library SubType="ANSIC" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>UasX.h</File>
+    <File>MethodOperate.c</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="AsOpcUas" />
+    <Dependency ObjectName="UasXTypes" />
+  </Dependencies>
+</Library>
